@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="#ffff"
+    tools:context=".segitiga">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEGITIGA"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/persegi"
+            android:layout_width="263dp"
+            android:layout_height="212dp"
+            android:layout_below="@+id/label"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/segitiga"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_below="@+id/persegi"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:text="Segitiga adalah bangun datar yang dibatasi oleh tiga sisi dan memiliki tiga sudut.
+                            \nKet :\n L = Luas\n K = Keliling\n a = alas\n t = tinggi\n b dan c = sisi miring"
+            android:textColor="#000"/>
+
+        <ImageView
+            android:id="@+id/luaspersegi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/text"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/segitiga"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/luas"
+            android:layout_below="@+id/text"
+            android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:textSize="25dp"
+            android:text="Rumus Luas Segitiga:\n L = 1/2(a x t)"
+            android:layout_alignParentRight="true"
+            android:textColor="#000"/>
+
+        <ImageView
+            android:id="@+id/kelilingpersegi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/luaspersegi"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/segitiga"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/keliling"
+            android:layout_below="@+id/luas"
+            android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:text="Rumus Keliling Segitiga:\nK= a+b+c"
+            android:layout_alignParentRight="true"
+            android:textColor="#000"/>
+
+    </RelativeLayout>
+
+</ScrollView>

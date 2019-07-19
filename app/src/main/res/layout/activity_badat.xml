@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="@drawable/walpaper3"
+    tools:context=".badat">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="\nMENGENAL \nBANGUN DATAR\n"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000000"
+            android:fontFamily="casual"
+            android:drawableRight="@drawable/bangundatar3"
+
+            />
+
+        <Button
+
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/label"
+            android:text="PERSEGI"
+            android:textSize="23dp"
+            android:id="@+id/persegi"
+            android:layout_marginTop="40dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:drawableLeft="@drawable/persegikecil"
+            android:textColor="#fff"
+            android:fontFamily="casual"
+            android:background="@drawable/button_bg_transparen"
+            android:padding="15dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/label"
+            android:text="SEGITIGA"
+            android:textSize="23dp"
+            android:id="@+id/segitiga"
+            android:layout_marginTop="40dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:drawableLeft="@drawable/segitiga3"
+            android:textColor="#fff"
+            android:fontFamily="casual"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_bg_transparen"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/persegi"
+            android:text="PERSEGI PANJANG"
+            android:textSize="23dp"
+            android:id="@+id/persegipanjang"
+            android:layout_marginTop="20dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:drawableLeft="@drawable/persegipajang"
+            android:textColor="#fff"
+            android:fontFamily="casual"
+            android:background="@drawable/button_bg_transparen"
+            android:padding="15dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/segitiga"
+            android:text="JAJAR\nGENJANG"
+            android:textSize="23dp"
+            android:id="@+id/jajargenjang"
+            android:layout_marginTop="20dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:drawableLeft="@drawable/jajargenjang2"
+            android:textColor="#fff"
+            android:fontFamily="casual"
+            android:background="@drawable/button_bg_transparen"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/persegipanjang"
+            android:text="Belah ketupat"
+            android:textSize="23dp"
+            android:id="@+id/belahketupat"
+            android:layout_marginTop="20dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:drawableLeft="@drawable/jajargenjang2"
+            android:textColor="#fff"
+            android:fontFamily="casual"
+            android:background="@drawable/button_bg_transparen"
+            android:padding="15dp"
+            android:layout_marginLeft="10dp"/>
+
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jajargenjang"
+            android:text="Layang Layang"
+            android:textSize="23dp"
+            android:id="@+id/layanglayang"
+            android:layout_marginTop="20dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:drawableLeft="@drawable/layanglayang2"
+            android:textColor="#fff"
+            android:fontFamily="casual"
+            android:background="@drawable/button_bg_transparen"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/belahketupat"
+            android:text="TRAPESIUM"
+            android:textSize="23dp"
+            android:id="@+id/trapesium"
+            android:layout_marginTop="20dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:drawableLeft="@drawable/persegi2"
+            android:textColor="#fff"
+            android:fontFamily="casual"
+            android:background="@drawable/button_bg_transparen"
+            android:padding="15dp"
+            android:layout_marginLeft="10dp"
+            />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/layanglayang"
+            android:text="Lingkaran"
+            android:textSize="22dp"
+            android:id="@+id/lingkaran"
+            android:layout_marginTop="20dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:drawableLeft="@drawable/lingkaran2"
+            android:textColor="#fff"
+            android:fontFamily="casual"
+            android:background="@drawable/button_bg_transparen"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

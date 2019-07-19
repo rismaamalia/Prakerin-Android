@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bangun Datar</string>
+    <string name="tentang">Aplikasi ini dibuat untuk mempermudah para generasi muda dalam pembelajaran khususnya Mata Pelajaran
+    Matematika.\nAplikasi Bangun Datar ini membahas mengenai bangun datar beserta Luas dan Kelilingnya
+        di dalam Aplikasi ini terdapat Latihan Soal
+    sebagai sarana tes pembelajaran Bangun datar.</string>
+    <string name="biodata">RISMA NOOR AMALIA \n Bandung, 26 Agustus 2002 \n SMK AS-SALAAM BANDUNG</string>
+    <string name="exitTextBtn">EXIT</string>
+</resources>

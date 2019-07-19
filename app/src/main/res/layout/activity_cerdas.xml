@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="@drawable/walpaper3"
+    tools:context=".cerdas">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="40dp"
+            android:fontFamily="casual"
+            android:drawableRight="@drawable/cerdas"
+            android:drawableLeft="@drawable/cerdas"
+            android:textStyle="bold"
+            android:text="CERDAS"
+            android:layout_marginTop="20dp"
+            />
+
+        <LinearLayout
+            android:layout_below="@+id/pintar"
+            android:id="@+id/lineSkor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp">
+
+
+            <TextView
+                android:layout_marginTop="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/lineSkor"
+                android:text="SKOR : "
+                android:textColor="#000"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_marginTop="100dp"
+                android:id="@+id/tvSkor"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="22dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lineSoal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/lineSkor"
+            android:layout_margin="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvSoal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#fff"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linePilihanJawaban"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_below="@id/lineSoal"
+            android:layout_margin="10dp">
+
+            <RadioGroup
+                android:id="@+id/rgPilihanJawaban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbPilihanJawaban1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:id="@+id/rbPilihanJawaban2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:id="@+id/rbPilihanJawaban3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18sp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linePilihanJawaban"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:fontFamily="casual"
+            android:background="@drawable/button_bg_transparen"
+            android:padding="15dp"
+            android:text="Ayo Cek !!!" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
